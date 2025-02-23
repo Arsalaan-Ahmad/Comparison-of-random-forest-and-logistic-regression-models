@@ -107,21 +107,6 @@ Explains why both models perform better on the majority class.
 
 **LR AUC = 0.75**: Moderate performance.
 
-### Figure 6: Training vs. Validation Accuracy (Overfitting Check)
-![train_vs_validation_acc](images/train_vs_validation_acc.png)
-
-RF shows slight overfitting (higher training accuracy than validation).
-
-LR generalizes better due to simplicity.
-
-### Figure 7: Confusion Matrices
-![rf_confusion_matrix](images/rf_confusion_matrix.png)
-
-![lr_confusion_matrix](images/lr_confusion_matrix.png)
-
-**RF**: Higher precision (74%) but lower recall (65%).
-
-**LR**: Better recall (72%) but lower precision (68%).
 
 
 ## 📹 Presentation Video  
