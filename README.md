@@ -125,7 +125,7 @@ LR generalizes better due to simplicity.
 
 
 ## 📹 Presentation Video  
-- [Download or view the video here](videos/project_explanation.mp4)  
+- [Download or view the video here](video/vid_presentation.mp4)  
 
 
 ## 📝 Lessons Learned & Future Work
