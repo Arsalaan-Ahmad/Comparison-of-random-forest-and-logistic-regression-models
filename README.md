@@ -143,4 +143,4 @@ LR generalizes better due to simplicity.
 
 ## 🔗 References
 - [Chang et al. (2022)](https://doi.org/10.1007/s00521-022-07049-z)
-- Full references in [docs/INM431-coursework-A1-template.pptx](docs/INM431-coursework-A1-template[1].pptx-AutoRecovered.pptx)
+- Full references in [docs/INM431-coursework-A1-template.pptx](docs/presentation.pptx)
