@@ -135,10 +135,9 @@ figure6.png: Overfitting analysis
 figure7.png: Confusion matrices
 
 
-## 📹 Presentation Video
-Watch the project walkthrough [here](https://drive.google.com/your-video-link) (replace with actual link).
+## 📹 Presentation Video  
+[Download or view the video here](videos/project_explanation.mp4)  
 
----
 
 ## 📝 Lessons Learned & Future Work
 ### Lessons:
