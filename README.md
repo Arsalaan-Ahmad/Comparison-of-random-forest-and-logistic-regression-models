@@ -10,12 +10,12 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 
 
 ## 📂 Repository Structure
-📂 Repository Structure
-├── 📂 data/ # Dataset files (Pima Indians Diabetes Dataset from Kaggle)
-├── 📂 images/ # Visualizations (heatmaps, frequency distributions, ROC curves)
-├── 📂 code/ # Scripts for data preprocessing, model training, and evaluation
-├── 📂 models/ # Trained model files (RF and LR)
-├── 📂 docs/ # Project presentation (INM431-coursework-A1-template.pptx)
+
+├── 📂 data/     # Dataset files (Pima Indians Diabetes Dataset from Kaggle)  
+├── 📂 images/   # Visualizations (heatmaps, frequency distributions, ROC curves)  
+├── 📂 code/     # Scripts for data preprocessing, model training, and evaluation  
+├── 📂 models/   # Trained model files (RF and LR)  
+├── 📂 docs/     # Project presentation (INM431-coursework-A1-template.pptx)  
 └── 📄 README.md
 
 
