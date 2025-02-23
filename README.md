@@ -63,49 +63,7 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - **Contradiction to Hypothesis**: RF had lower TP/FP rates than expected.
 
 
-## 📸 Key Visualizations
-### Figure 1: Frequency Distribution Before & After Imputation
-![dist_before_data_imputation](images/dist_before_data_imputation.png)
 
-![dist_after_data_imputation](images/dist_after_data_imputation.png)
-
-**top**: Original dataset with missing values (encoded as 0).
-
-**bottom**: After replacing missing values with mean/median.
-
-Shows the balanced distribution of the target variable (Outcome).
-
-### Figure 2: Correlation Heatmap
-![heatmap](images/heatmap.png)
-
-Glucose, BMI, and Age show strong positive correlations with diabetes.
-
-Skin Thickness and Insulin are less influential.
-
-### Figure 3: Feature Importance (Random Forest vs. Logistic Regression)
-![featur_imp_rf](images/featur_imp_rf.png)
-
-![featur_imp_lr](images/featur_imp_lr.png)
-
-**RF**: Glucose and BMI are top predictors.
-
-**LR**: Blood Pressure and Diabetes Pedigree Function dominate.
-
-Negative correlations in LR suggest some features may hurt performance.
-
-### Figure 4: Class Distribution
-![Y_dist](images/Y_dist.png)
-
-**Imbalanced dataset**: ~65% "No Diabetes" vs. ~35% "Diabetes".
-
-Explains why both models perform better on the majority class.
-
-### Figure 5: ROC Curves
-![ROC_curve](images/ROC_curve.png)
-
-**RF AUC = 0.82**: Better class separation.
-
-**LR AUC = 0.75**: Moderate performance.
 
 
 
