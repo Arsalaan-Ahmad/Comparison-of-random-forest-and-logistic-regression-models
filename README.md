@@ -15,8 +15,8 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 ├── 📂 images/   # Visualizations (heatmaps, frequency distributions, ROC curves)  
 ├── 📂 code/     # Scripts for data preprocessing, model training, and evaluation  
 ├── 📂 models/   # Trained model files (RF and LR)  
-├── 📂 docs/     # Project presentation (INM431-coursework-A1-template.pptx) 
-├── 📄 requirements.txt
+├── 📂 docs/     # Project presentation (INM431-coursework-A1-template.pptx)  
+├── 📄 requirements.txt  
 └── 📄 README.md
 
 
