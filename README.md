@@ -62,8 +62,8 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - **Contradiction to Hypothesis**: RF had lower TP/FP rates than expected.
 
 
-📸 Key Visualizations
-Figure 1: Frequency Distribution Before & After Imputation
+## 📸 Key Visualizations
+### Figure 1: Frequency Distribution Before & After Imputation
 Frequency Distribution
 
 Left: Original dataset with missing values (encoded as 0).
@@ -72,14 +72,14 @@ Right: After replacing missing values with mean/median.
 
 Shows the balanced distribution of the target variable (Outcome).
 
-Figure 2: Correlation Heatmap
+### Figure 2: Correlation Heatmap
 Correlation Heatmap
 
 Glucose, BMI, and Age show strong positive correlations with diabetes.
 
 Skin Thickness and Insulin are less influential.
 
-Figure 3: Feature Importance (Random Forest vs. Logistic Regression)
+### Figure 3: Feature Importance (Random Forest vs. Logistic Regression)
 Feature Importance
 
 RF: Glucose and BMI are top predictors.
@@ -88,35 +88,36 @@ LR: Blood Pressure and Diabetes Pedigree Function dominate.
 
 Negative correlations in LR suggest some features may hurt performance.
 
-Figure 4: Class Distribution
+### Figure 4: Class Distribution
 Class Distribution
 
 Imbalanced dataset: ~65% "No Diabetes" vs. ~35% "Diabetes".
 
 Explains why both models perform better on the majority class.
 
-Figure 5: ROC Curves
+### Figure 5: ROC Curves
 ROC Curves
 
 RF AUC = 0.82: Better class separation.
 
 LR AUC = 0.75: Moderate performance.
 
-Figure 6: Training vs. Validation Accuracy (Overfitting Check)
+### Figure 6: Training vs. Validation Accuracy (Overfitting Check)
 Overfitting Check
 
 RF shows slight overfitting (higher training accuracy than validation).
 
 LR generalizes better due to simplicity.
 
-Figure 7: Confusion Matrices
+### Figure 7: Confusion Matrices
 Confusion Matrices
 
 RF: Higher precision (74%) but lower recall (65%).
 
 LR: Better recall (72%) but lower precision (68%).
 
-🖼️ All Visualizations
+## 🖼️ All Visualizations
+
 For full details, explore the images folder:
 
 figure1.png: Frequency distributions
