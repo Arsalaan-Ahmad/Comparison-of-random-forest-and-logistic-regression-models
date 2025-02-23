@@ -65,7 +65,9 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 
 ## 📸 Key Visualizations
 ### Figure 1: Frequency Distribution Before & After Imputation
-Frequency Distribution
+![dist_before_data_imputation](images/dist_before_data_imputation.fig)
+
+![dist_after_data_imputation](images/dist_after_data_imputation.fig)
 
 Left: Original dataset with missing values (encoded as 0).
 
