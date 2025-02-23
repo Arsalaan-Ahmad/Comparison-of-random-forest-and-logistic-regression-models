@@ -136,7 +136,7 @@ figure7.png: Confusion matrices
 
 
 ## 📹 Presentation Video  
-[Download or view the video here](videos/project_explanation.mp4)  
+- [Download or view the video here](videos/project_explanation.mp4)  
 
 
 ## 📝 Lessons Learned & Future Work
