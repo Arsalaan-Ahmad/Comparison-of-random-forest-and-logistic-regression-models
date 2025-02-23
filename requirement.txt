@@ -1,0 +1,29 @@
+Required Libraries and Toolboxes:
+1-MATLAB (R2021a or later)
+2-Statistics and Machine Learning Toolbox
+3-Data Import and Export Toolbox (for readtable)
+4-MATLAB Plotting Tools (for figure, subplot, histogram, heatmap)
+5-Parallel Computing Toolbox (for TreeBagger)
+Additional Requirements:
+
+Steps to Install Required Toolboxes:
+Open MATLAB.
+Go to the Home tab.
+Click on Add-Ons.
+Search for the required toolboxes (e.g., "Statistics and Machine Learning Toolbox").
+Install the toolboxes.
+
+Example Code to Check and Install Toolboxes:
+requiredToolboxes = {'Statistics and Machine Learning Toolbox', 'Data Import and Export Toolbox', 'Parallel Computing Toolbox'};
+installedToolboxes = matlab.addons.installedAddons();
+
+for i = 1:length(requiredToolboxes)
+    if ~any(strcmp(installedToolboxes.Name, requiredToolboxes{i}))
+        fprintf('Installing %s...\n', requiredToolboxes{i});
+        matlab.addons.install(requiredToolboxes{i});
+    else
+        fprintf('%s is already installed.\n', requiredToolboxes{i});
+    end
+end
+
+Make sure you have these toolboxes installed to ensure the code runs without any issues.
