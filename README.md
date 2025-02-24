@@ -127,5 +127,5 @@ Explains why both models perform better on the majority class.
 ---
 
 ## 🔗 References
-- [Chang et al. (2022)](https://doi.org/10.1007/s00521-022-07049-z)
+- [Chang, V., Bailey, J., Xu, Q.A. et al. Pima Indians diabetes mellitus classification based on machine learning (ML) algorithms. Neural Comput & Applic 35, 16157–16173 (2023). https://doi.org/10.1007/s00521-022-07049-z)]
 - Full references in [docs/presentation.pptx](docs/presentation.pptx)
