@@ -106,19 +106,3 @@ Glucose, BMI, and Age show strong positive correlations with diabetes.
 ## 🔗 References
 - [Chang, V., Bailey, J., Xu, Q.A. et al. Pima Indians diabetes mellitus classification based on machine learning (ML) algorithms. Neural Comput & Applic 35, 16157–16173 (2023). https://doi.org/10.1007/s00521-022-07049-z]
 - Full references in [docs/presentation.pptx](docs/presentation.pptx)
-
----
-
-### OpenGraph Meta Tags (Add to HTML Head)
-```html
-<meta property="og:title" content="Diabetes Prediction: Comparing Random Forest & Logistic Regression">
-<meta property="og:description" content="A machine learning project comparing Random Forest and Logistic Regression for diabetes prediction using the Pima Indians Diabetes Dataset.">
-<meta property="og:image" content="https://yourdomain.com/images/ROC_curve.png">
-<meta property="og:url" content="https://yourdomain.com/project-overview">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Diabetes Prediction Project">
-<meta property="og:locale" content="en_US">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:title" content="Diabetes Prediction: Comparing Random Forest & Logistic Regression">
-<meta property="twitter:description" content="A machine learning project comparing Random Forest and Logistic Regression for diabetes prediction using the Pima Indians Diabetes Dataset.">
-<meta property="twitter:image" content="https://yourdomain.com/images/ROC_curve.png">
