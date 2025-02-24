@@ -8,18 +8,6 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - How do feature importance and correlation impact predictions?
 - Does hyperparameter tuning significantly improve performance?
 
-
-## 📂 Repository Structure
-
-├── 📂 data/     # Dataset files (Pima Indians Diabetes Dataset from Kaggle)  
-├── 📂 images/   # Visualizations (heatmaps, frequency distributions, ROC curves)  
-├── 📂 code/     # Scripts for data preprocessing, model training, and evaluation  
-├── 📂 models/   # Trained model files (RF and LR)  
-├── 📂 docs/     # Project presentation (INM431-coursework-A1-template.pptx)  
-├── 📄 requirement.txt  
-└── 📄 README.md
-
-
 ---
 
 ## 🏥 Dataset Details
@@ -43,6 +31,7 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 3. **Evaluation Metrics**:
    - Accuracy, AUC, Precision, Recall, F1-Score.
 
+---
 
 ## 📊 Results
 ### Model Performance Comparison (Test Set)
@@ -62,56 +51,47 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - RF overfits slightly on training data but generalizes well on test data.
 - **Contradiction to Hypothesis**: RF had lower TP/FP rates than expected.
 
+---
 
 ## 📸 Key Visualizations
 ### Figure 1: Frequency Distribution Before & After Imputation
-![dist_before_data_imputation](images/dist_before_data_imputation.png)
-
-![dist_after_data_imputation](images/dist_after_data_imputation.png)
-
-**top**: Original dataset with missing values (encoded as 0).
-
-**bottom**: After replacing missing values with mean/median.
-
-Shows the balanced distribution of the target variable (Outcome).
+![dist_before_data_imputation](images/dist_before_data_imputation.png)  
+*Dimensions: 1200x630*  
+**Top**: Original dataset with missing values (encoded as 0).  
+**Bottom**: After replacing missing values with mean/median.  
 
 ### Figure 2: Correlation Heatmap
-![heatmap](images/heatmap.png)
-
-Glucose, BMI, and Age show strong positive correlations with diabetes.
-
-Skin Thickness and Insulin are less influential.
+![heatmap](images/heatmap.png)  
+*Dimensions: 1200x630*  
+Glucose, BMI, and Age show strong positive correlations with diabetes.  
 
 ### Figure 3: Feature Importance (Random Forest vs. Logistic Regression)
-![featur_imp_rf](images/featur_imp_rf.png)
+![featur_imp_rf](images/featur_imp_rf.png)  
+*Dimensions: 1200x630*  
+**RF**: Glucose and BMI are top predictors.  
 
-![featur_imp_lr](images/featur_imp_lr.png)
-
-**RF**: Glucose and BMI are top predictors.
-
-**LR**: Blood Pressure and Diabetes Pedigree Function dominate.
-
-Negative correlations in LR suggest some features may hurt performance.
+![featur_imp_lr](images/featur_imp_lr.png)  
+*Dimensions: 1200x630*  
+**LR**: Blood Pressure and Diabetes Pedigree Function dominate.  
 
 ### Figure 4: Class Distribution
-![Y_dist](images/Y_dist.png)
-
-**Imbalanced dataset**: ~65% "No Diabetes" vs. ~35% "Diabetes".
-
-Explains why both models perform better on the majority class.
+![Y_dist](images/Y_dist.png)  
+*Dimensions: 1200x630*  
+**Imbalanced dataset**: ~65% "No Diabetes" vs. ~35% "Diabetes".  
 
 ### Figure 5: ROC Curves
-![ROC_curve](images/ROC_curve.png)
+![ROC_curve](images/ROC_curve.png)  
+*Dimensions: 1200x630*  
+**RF AUC = 0.82**: Better class separation.  
+**LR AUC = 0.75**: Moderate performance.  
 
-**RF AUC = 0.82**: Better class separation.
-
-**LR AUC = 0.75**: Moderate performance.
-
+---
 
 ## 📹 Presentation Video  
-- [Download the video here]
--📂 video/vid_presentation
+- [Download the video here](video/vid_presentation)  
+- *Optimized for social media sharing.*
 
+---
 
 ## 📝 Lessons Learned & Future Work
 ### Lessons:
@@ -127,5 +107,21 @@ Explains why both models perform better on the majority class.
 ---
 
 ## 🔗 References
-- [Chang, V., Bailey, J., Xu, Q.A. et al. Pima Indians diabetes mellitus classification based on machine learning (ML) algorithms. Neural Comput & Applic 35, 16157–16173 (2023). https://doi.org/10.1007/s00521-022-07049-z)]
+- [Chang, V., Bailey, J., Xu, Q.A. et al. Pima Indians diabetes mellitus classification based on machine learning (ML) algorithms. Neural Comput & Applic 35, 16157–16173 (2023). https://doi.org/10.1007/s00521-022-07049-z]
 - Full references in [docs/presentation.pptx](docs/presentation.pptx)
+
+---
+
+### OpenGraph Meta Tags (Add to HTML Head)
+```html
+<meta property="og:title" content="Diabetes Prediction: Comparing Random Forest & Logistic Regression">
+<meta property="og:description" content="A machine learning project comparing Random Forest and Logistic Regression for diabetes prediction using the Pima Indians Diabetes Dataset.">
+<meta property="og:image" content="https://yourdomain.com/images/ROC_curve.png">
+<meta property="og:url" content="https://yourdomain.com/project-overview">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Diabetes Prediction Project">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Diabetes Prediction: Comparing Random Forest & Logistic Regression">
+<meta property="twitter:description" content="A machine learning project comparing Random Forest and Logistic Regression for diabetes prediction using the Pima Indians Diabetes Dataset.">
+<meta property="twitter:image" content="https://yourdomain.com/images/ROC_curve.png">
