@@ -110,7 +110,7 @@ Explains why both models perform better on the majority class.
 
 ## 📹 Presentation Video  
 - [Download the video here]
--📂 video/presentation
+-📂 video/vid_presentation
 
 
 ## 📝 Lessons Learned & Future Work
