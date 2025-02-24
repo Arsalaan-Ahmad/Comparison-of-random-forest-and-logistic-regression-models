@@ -8,7 +8,7 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - How do feature importance and correlation impact predictions?
 - Does hyperparameter tuning significantly improve performance?
 
----
+
 
 ## 🏥 Dataset Details
 - **Source**: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
@@ -19,7 +19,7 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
   - Normalized predictors using min-max scaling.
   - Split into 60:20:20 (train/validation/test).
 
----
+
 
 ## 🛠️ Methodology
 1. **Data Cleaning & EDA**:
@@ -31,7 +31,7 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 3. **Evaluation Metrics**:
    - Accuracy, AUC, Precision, Recall, F1-Score.
 
----
+
 
 ## 📊 Results
 ### Model Performance Comparison (Test Set)
@@ -51,47 +51,44 @@ This project compares the performance of **Random Forest (RF)** and **Logistic R
 - RF overfits slightly on training data but generalizes well on test data.
 - **Contradiction to Hypothesis**: RF had lower TP/FP rates than expected.
 
----
+
 
 ## 📸 Key Visualizations
 ### Figure 1: Frequency Distribution Before & After Imputation
 ![dist_before_data_imputation](images/dist_before_data_imputation.png)  
-*Dimensions: 1200x630*  
+
 **Top**: Original dataset with missing values (encoded as 0).  
 **Bottom**: After replacing missing values with mean/median.  
 
 ### Figure 2: Correlation Heatmap
 ![heatmap](images/heatmap.png)  
-*Dimensions: 1200x630*  
+
 Glucose, BMI, and Age show strong positive correlations with diabetes.  
 
 ### Figure 3: Feature Importance (Random Forest vs. Logistic Regression)
 ![featur_imp_rf](images/featur_imp_rf.png)  
-*Dimensions: 1200x630*  
+
 **RF**: Glucose and BMI are top predictors.  
 
 ![featur_imp_lr](images/featur_imp_lr.png)  
-*Dimensions: 1200x630*  
+
 **LR**: Blood Pressure and Diabetes Pedigree Function dominate.  
 
 ### Figure 4: Class Distribution
 ![Y_dist](images/Y_dist.png)  
-*Dimensions: 1200x630*  
+
 **Imbalanced dataset**: ~65% "No Diabetes" vs. ~35% "Diabetes".  
 
 ### Figure 5: ROC Curves
 ![ROC_curve](images/ROC_curve.png)  
-*Dimensions: 1200x630*  
+
 **RF AUC = 0.82**: Better class separation.  
 **LR AUC = 0.75**: Moderate performance.  
 
----
 
 ## 📹 Presentation Video  
-- [Download the video here](video/vid_presentation)  
-- *Optimized for social media sharing.*
+- [Download the video here](video/vid_presentation.mp4)  
 
----
 
 ## 📝 Lessons Learned & Future Work
 ### Lessons:
